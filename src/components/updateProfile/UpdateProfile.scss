@@ -5,6 +5,7 @@
     }
 
     .left-part {
+        
         text-align: center;
         flex: 1;
 
@@ -17,7 +18,7 @@
                 width: 80px;
                 height: 80px;
                 border-radius: 50%;
-                border: 4px dashed var(--accent-colour);
+                border: 0.5px dashed black;
                 cursor: pointer;
                 img {
                     width: 100%;
@@ -33,6 +34,9 @@
     }
 
     .right-part {
+        padding: 20px;
+        background-color: var(--theme-box-color);
+
         flex: 3;
 
         form {

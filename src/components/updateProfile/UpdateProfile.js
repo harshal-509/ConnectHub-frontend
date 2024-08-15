@@ -12,7 +12,7 @@ function UpdateProfile() {
     useEffect(() => {
         setName(myProfile?.name || "");
         setBio(myProfile?.setBio || "");
-        setUserImg(myProfile?.avatar?.url || "");
+        setUserImg(myProfile?.avatar?.url || "https://www.kindpng.com/picc/m/252-2524695_dummy-profile-image-jpg-hd-png-download.png");
     }, [myProfile]);
 
     const handleImageChange = (e) => {
@@ -43,7 +43,7 @@ function UpdateProfile() {
                 <div className="left-part">
                     <div className="input-user-img">
                         <label htmlFor="userImg" className="label-img">
-                            <img src={userImg} alt={name} />
+                            <img src={userImg} alt="" />
                         </label>
                         <input
                             className="input-img"

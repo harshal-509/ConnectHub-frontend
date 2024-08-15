@@ -46,7 +46,8 @@ function Profile() {
                     <div className="profile-card">
                         <img
                             className="user-img"
-                            src={userProfile?.Avatar?.url}
+                            src={userProfile?.Avatar?.url || "https://www.kindpng.com/picc/m/252-2524695_dummy-profile-image-jpg-hd-png-download.png"
+ }
                             alt=""
                         />
                         <h3 className="user-name">{userProfile?.name}</h3>

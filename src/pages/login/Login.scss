@@ -3,12 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--theme-color);
 
     .heading{
         text-align: center;
     }
 
     .login-box{
+        background-color: var(--theme-box-color);
         padding: 40px;
         min-width: 400px;
         border: 1px solid black;

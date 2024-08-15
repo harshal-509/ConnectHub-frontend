@@ -1,8 +1,11 @@
 .Follower{
+    background-color: var(--theme-box-color);
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px; 
+    
 
     .user-info{
         display: flex;

@@ -5,10 +5,13 @@
     }
 
     .left-part {
+        
         flex: 2;
         overflow-y: auto;
     }
     .right-part {
+        background-color: var(--theme-box-color);
+
         flex: 1;
         margin-top: 20px;
     }
@@ -44,6 +47,7 @@
         }
 
         .follow-link{
+            padding-top: 20px;
             color: var(--accent-color);
         }
     }

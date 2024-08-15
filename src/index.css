@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: var(--theme-color);
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
         "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
@@ -21,6 +22,9 @@ code {
 :root {
     --border-color: #ddd;
     --accent-color: #458eff;
+    --theme-color : rgb(240, 216, 208);
+    --theme-box-color : rgb(241, 232, 232);
+    --theme-nav-color :  rgb(183, 184, 190);
 }
 
 h1,
